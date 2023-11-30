@@ -1,22 +1,30 @@
-let Hero = "igor"
-let xp = 9002
-switch (xp){
-    case (xp <= 1000): console.log("O herói de nome "+ Hero + ". Está no nível: ferro")
-    break
-    case ((xp >= 1001) && (xp <= 2000)): console.log("O herói de nome "+ Hero + ". Está no nível: Bronze")
-    break
-    case ((xp >= 2001) && (xp <= 5000)): console.log("O herói de nome "+ Hero + ". Está no nível: Prata")
-    break
-    case ((xp >= 6001) && (xp <= 7000)): console.log("O herói de nome "+ Hero + ". Está no nível: Ouro")
-    break
-    case ((xp >= 7001) && (xp <= 8000)): console.log("O herói de nome "+ Hero + ". Está no nível: Platina")
-    break
-    case ((xp >= 8001) && (xp <= 9000)): console.log("O herói de nome "+ Hero + ". Está no nível: Ascendente")
-    break
-    case ((xp >= 9001) && (xp <= 10000)): console.log("O herói de nome "+ Hero + ". Está no nível: Imortal")
-    break
-    case (xp >= 10001): console.log("O herói de nome "+ Hero + ". Está no nível: Radiante")
-    break
-    default: console.log("O herói de nome "+ Hero + " não tem capacidade de sobreviver ao desafio.")
-}
+let Hero = "Igor"
+let xp = 5002
+const saida = "O herói de nome "
+if (xp<=1000){
+console.log(saida + Hero +" está no nível de Ferro.")
+
+} else if ((xp >= 1001)&&(xp <= 2000)){
+    console.log(saida + Hero +" está no nível de Bronze.")
+
+}  else if ((xp >= 2001)&&(xp <= 5000)){
+    console.log(saida + Hero +" está no nível de Prata.")
+
+}  else if ((xp >= 6001)&&(xp <= 7000)){
+    console.log(saida + Hero +" está no nível de Ouro.")
+
+}  else if ((xp >= 7001)&&(xp <= 8000)){
+    console.log(saida + Hero +" está no nível de Platina.")
+
+}  else if ((xp >= 8001)&&(xp <= 9000)){
+    console.log(saida + Hero +" está no nível de Ascendente.")
+
+}  else if ((xp >= 9001)&&(xp <= 10000)){
+    console.log(saida + Hero +" está no nível de Imortal.")
+
+}  else if (xp >= 10001){
+    console.log(saida + Hero +" está no nível de Radiante.")
     
+} else {
+    console.log(saida + Hero +" não tem capacidade de sobreviver ao desafio.")
+}
